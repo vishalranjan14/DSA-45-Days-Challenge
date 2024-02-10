@@ -36,6 +36,7 @@ public:
                 max -=1;
                 prev = nums[i];
             }
+            
         }
         return ans;
     }
