@@ -17,8 +17,9 @@ public:
             for(int j=0; j<i;j++)
             {
                 if(nums[i]>nums[j])
-                
-               
+                {
+                    dp[i]=max(dp[i],dp[j]+1);git config --global user.name "Your New Username"
+                } 
             }
         }
         for(auto i:dp)
